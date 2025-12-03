@@ -19,9 +19,9 @@ class WeatherApp(QWidget):
         self.init_UI()
 
     def init_UI(self):
+
         self.setWindowTitle("Weather App")
 
-       
         vbox = QVBoxLayout()
 
         vbox.addWidget(self.city_label)
